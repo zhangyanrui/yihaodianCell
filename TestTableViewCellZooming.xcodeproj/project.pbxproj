@@ -14,13 +14,13 @@
 		BED8148C19768054004ADF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8148B19768054004ADF77 /* main.m */; };
 		BED8149019768054004ADF77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8148F19768054004ADF77 /* AppDelegate.m */; };
 		BED8149319768054004ADF77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED8149119768054004ADF77 /* Main.storyboard */; };
-		BED8149619768054004ADF77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8149519768054004ADF77 /* ViewController.m */; };
 		BED8149819768054004ADF77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED8149719768054004ADF77 /* Images.xcassets */; };
 		BED8149F19768054004ADF77 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8149E19768054004ADF77 /* XCTest.framework */; };
 		BED814A019768054004ADF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8147F19768054004ADF77 /* Foundation.framework */; };
 		BED814A119768054004ADF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED8148319768054004ADF77 /* UIKit.framework */; };
 		BED814A919768054004ADF77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BED814A719768054004ADF77 /* InfoPlist.strings */; };
 		BED814AB19768054004ADF77 /* TestTableViewCellZoomingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BED814AA19768054004ADF77 /* TestTableViewCellZoomingTests.m */; };
+		BED814B6197680AF004ADF77 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED814B5197680AF004ADF77 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		BED8148E19768054004ADF77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BED8148F19768054004ADF77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BED8149219768054004ADF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BED8149419768054004ADF77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BED8149519768054004ADF77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BED8149719768054004ADF77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BED8149D19768054004ADF77 /* TestTableViewCellZoomingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewCellZoomingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED8149E19768054004ADF77 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BED814A619768054004ADF77 /* TestTableViewCellZoomingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTableViewCellZoomingTests-Info.plist"; sourceTree = "<group>"; };
 		BED814A819768054004ADF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BED814AA19768054004ADF77 /* TestTableViewCellZoomingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCellZoomingTests.m; sourceTree = "<group>"; };
+		BED814B4197680AF004ADF77 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BED814B5197680AF004ADF77 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				BED8148E19768054004ADF77 /* AppDelegate.h */,
 				BED8148F19768054004ADF77 /* AppDelegate.m */,
 				BED8149119768054004ADF77 /* Main.storyboard */,
-				BED8149419768054004ADF77 /* ViewController.h */,
-				BED8149519768054004ADF77 /* ViewController.m */,
+				BED814B4197680AF004ADF77 /* TableViewController.h */,
+				BED814B5197680AF004ADF77 /* TableViewController.m */,
 				BED8149719768054004ADF77 /* Images.xcassets */,
 				BED8148619768054004ADF77 /* Supporting Files */,
 			);
@@ -249,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED8149619768054004ADF77 /* ViewController.m in Sources */,
 				BED8149019768054004ADF77 /* AppDelegate.m in Sources */,
+				BED814B6197680AF004ADF77 /* TableViewController.m in Sources */,
 				BED8148C19768054004ADF77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
